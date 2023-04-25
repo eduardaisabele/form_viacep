@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Document</title>
 </head>
 <body>
@@ -17,8 +18,10 @@
         <input type="text" name="estado" id="estado" placeholder="Estado">
         <input type="text" name="ibge" id="ibge" placeholder="IBGE">
         <input type="number" name="ddd" id="ddd" placeholder="DDD">
-        <!-- <button id="btn-consulta" class="btn">Limpar</button> -->
-        <button id="btn-consulta" class="btn">Consultar</button>
+        <div class="btns">
+            <button id="btn-reset" class="material-symbols-outlined btn btn-icon">refresh</button>
+            <button id="btn-consulta" class="btn">Consultar</button>
+        </div>
     </main>
 
     <script src="js/main.js"></script>

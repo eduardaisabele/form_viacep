@@ -31,6 +31,9 @@ const pesquisarCep = async() => {
     }
 }
 
+const btnReset = document.getElementById('btn-reset');
+btnReset.addEventListener('click', limparForm);
+
 document.getElementById('cep')
         .addEventListener('focusout', pesquisarCep);
 
